@@ -1,5 +1,8 @@
 # Linear Algebra
 
+## Reference material
+[MIT 18.06 - W. Gilbert Strang](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8)
+
 ## Scalars, Vectors, Matrices and Tensors
 
 - __Scalars__: A scalar is just a single number.
@@ -11,9 +14,9 @@ One important operation on matrices is transpose.
 
 
 
-## Multiplyinh Matrices and Vectors
+## Multiplying Matrices and Vectors
 
-- Matrix Product : C=AB
+- Matrix Product : C = AB
 - element-wise product or Hadamard product
 - dot product
 
@@ -30,8 +33,6 @@ $ A^{-1}.A=I$
 
 - chapter 3 and chapter 4 of Introduction Linear Algebra by Gilbert Strang
 
-
-
 ## Norms
 
 Sometimes we need to measure the size of a vector. In machine learning, we usually
@@ -39,7 +40,7 @@ measure the size of vectors using a function called a norm. Formally, the L
 p norm
 is given by
 
-$ ||x||_p = (\sum_i{|x_i|^p})^{\frac{1}{p}}$
+$ ||x||_p = \left(\sum_i{|x_i|^p}\right)^{\frac{1}{p}}$
 
 Norms, including the L
 p norm, are functions mapping vectors to non-negative
